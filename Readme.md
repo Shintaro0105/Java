@@ -1,11 +1,10 @@
-# Java DevContainer Environment
+# Java Dev Container Environment (Java 21 + Gradle)
 
-このリポジトリは、Visual Studio CodeのDev Containers機能を使用して、DockerベースのJava開発環境を提供します。Javaのバージョンやビルドツール（Maven / Gradle）をコンテナ上で簡単に管理・開発できるように構成されています。
+このリポジトリは、Visual Studio Code の Dev Containers 機能を用いて Java 開発環境を Docker コンテナ内に構築するテンプレートです。Java 21 および Gradle を使用した開発に最適化されています。
 
-## 📦 構成内容
+## 🐳 利用技術
 
-- Java (OpenJDK 17)
-- Maven 3.x または Gradle（必要に応じて選択可）
-- Git
-- curl, wget などのユーティリティ
-- VS Code DevContainerサポートファイル (`.devcontainer/` ディレクトリ)
+- Java 21 (OpenJDK)
+- Gradle（Mavenは未インストール）
+- Debian Bullseye ベースのDockerイメージ
+- VS Code Dev Containers 拡張
