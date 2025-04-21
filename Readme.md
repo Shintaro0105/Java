@@ -27,5 +27,5 @@ java HelloWorld
 ```
 出力例：
 ```sh
-Hello, World!!
+Hello, World!
 ```
