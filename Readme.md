@@ -8,3 +8,24 @@
 - Gradle（Mavenは未インストール）
 - Debian Bullseye ベースのDockerイメージ
 - VS Code Dev Containers 拡張
+
+## Java コードのコンパイルと実行手順
+
+1. ターミナルを開く
+VS Code で `Ctrl + `` で開くか、メニューから開きます。
+
+2. Java ファイルをコンパイル
+```sh
+javac src/main/HelloWorld.java
+```
+成功すると src/main/HelloWorld.class が生成されます。
+
+3. Java クラスを実行
+```sh
+cd src/main
+java HelloWorld
+```
+出力例：
+```sh
+Hello, World!!
+```
